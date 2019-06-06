@@ -1,0 +1,24 @@
+[INFO  - 2018-12-25T08:23:06.513Z] GhostDriver - Main - running on port 57245
+[INFO  - 2018-12-25T08:23:08.642Z] Session [4f7130d0-081e-11e9-8fa4-798c34f5d99c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-12-25T08:23:08.642Z] Session [4f7130d0-081e-11e9-8fa4-798c34f5d99c] - page.customHeaders:  - {}
+[INFO  - 2018-12-25T08:23:08.642Z] Session [4f7130d0-081e-11e9-8fa4-798c34f5d99c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-12-25T08:23:08.642Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4f7130d0-081e-11e9-8fa4-798c34f5d99c
+[ERROR - 2018-12-25T08:23:09.696Z] Session [4f7130d0-081e-11e9-8fa4-798c34f5d99c] - page.onError - msg: ReferenceError: Can't find variable: uet
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-25T08:23:09.696Z] Session [4f7130d0-081e-11e9-8fa4-798c34f5d99c] - page.onError - stack:
+  onload (https://www.amazon.in/python-books/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Apython%20books:1260)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-25T08:23:10.283Z] Session [4f7130d0-081e-11e9-8fa4-798c34f5d99c] - page.onError - msg: SyntaxError: JSON Parse error: Unexpected EOF
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-25T08:23:10.283Z] Session [4f7130d0-081e-11e9-8fa4-798c34f5d99c] - page.onError - stack:
+  parse (https://images-eu.ssl-images-amazon.com/images/I/71bXG0zQEIL._RC%7C61ybdwam-8L.js,41MSv8-3arL.js,113NkCQYmFL.js,01wBjiz9OvL.js,21YI5xZWAwL.js,31SFwv+1S1L.js,51+klsvwgqL.js,31Sch+N9NhL.js_.js?AUIClients/NavDesktopMetaAsset#desktop:308)
+  success (https://images-eu.ssl-images-amazon.com/images/I/71bXG0zQEIL._RC%7C61ybdwam-8L.js,41MSv8-3arL.js,113NkCQYmFL.js,01wBjiz9OvL.js,21YI5xZWAwL.js,31SFwv+1S1L.js,51+klsvwgqL.js,31Sch+N9NhL.js_.js?AUIClients/NavDesktopMetaAsset#desktop:308)
+  (anonymous function) (https://www.amazon.in/python-books/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Apython%20books:22)
+  resolveWith (https://images-eu.ssl-images-amazon.com/images/I/611lNbSiw8L._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRjL.js,01xMsWWFUQL.js,11aNYFFS5hL.js,116tgw9TSaL.js,21auxuI+dRL.js,01PoLXBDXWL.js,61xD4-MXbLL.js,01mi-J86cyL.js,110HZneHcZL.js,31LzSqSw4xL.js,01rpauTep4L.js,01iyxuSGj4L.js,01-KZRtKiSL.js_.js?AUIClients/AmazonUI#144375-T1:47)
+  d (https://images-eu.ssl-images-amazon.com/images/I/611lNbSiw8L._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRjL.js,01xMsWWFUQL.js,11aNYFFS5hL.js,116tgw9TSaL.js,21auxuI+dRL.js,01PoLXBDXWL.js,61xD4-MXbLL.js,01mi-J86cyL.js,110HZneHcZL.js,31LzSqSw4xL.js,01rpauTep4L.js,01iyxuSGj4L.js,01-KZRtKiSL.js_.js?AUIClients/AmazonUI#144375-T1:162)
+  b (https://images-eu.ssl-images-amazon.com/images/I/611lNbSiw8L._RC%7C11IYhapguOL.js,61TG4BWqFeL.js,21iSNz47xoL.js,012FVc3131L.js,119KAWlHU6L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51MJgfi30-L.js,11AHlQhPRjL.js,01xMsWWFUQL.js,11aNYFFS5hL.js,116tgw9TSaL.js,21auxuI+dRL.js,01PoLXBDXWL.js,61xD4-MXbLL.js,01mi-J86cyL.js,110HZneHcZL.js,31LzSqSw4xL.js,01rpauTep4L.js,01iyxuSGj4L.js,01-KZRtKiSL.js_.js?AUIClients/AmazonUI#144375-T1:174)
+
+  phantomjs://platform/console++.js:263 in error
